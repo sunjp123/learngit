@@ -21,9 +21,7 @@ function fib2(n){
     if(n == 1 || n == 2) return 1;
     let p = 0, res = 1, pre = 1,i = 3;
     while(i<=n){
-        p = res;
-        res = res + pre;
-        pre = p
+        [pre,res] = [res,res+pre]
         i++
     }
     return res;

@@ -3,8 +3,8 @@
 
 
 (function(num){
-    console.log(num1)
-    let num1 = function(){}
+    console.log(num)
+    let  num = function(){}
     // function num(){}
     console.log(num) 
 }(12))
