@@ -13,7 +13,7 @@ const throttle = function(fn,delay){
             },delay)
         }else{
             last = now
-            fn.call(this,args)
+            fn.apply(this,args)
         }
     }
 }
